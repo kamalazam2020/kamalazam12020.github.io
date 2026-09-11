@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Play, ArrowDown, Sparkles, Compass } from 'lucide-react';
 import { HeroAutomotive3D } from './HeroAutomotive3D';
 import { ShowreelModal } from './ShowreelModal';
+import heroBgImage from '../assets/images/hero_cinematic_automotive_1789133676136.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -238,7 +239,7 @@ export const HeroSection: React.FC = () => {
         <div className="absolute inset-0 -z-30 overflow-hidden pointer-events-none select-none">
           <img
             ref={bgImageRef}
-            src="/src/assets/images/hero_cinematic_automotive_1789133676136.jpg"
+            src={heroBgImage}
             alt="Cinematic luxury automotive production photograph by Kamal Azam"
             referrerPolicy="no-referrer"
             className="w-full h-[120%] -top-[10%] object-cover object-center brightness-[0.72] contrast-[1.08] filter"

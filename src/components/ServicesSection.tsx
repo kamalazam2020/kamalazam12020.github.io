@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowUpRight, Film, Camera, BarChart3, Layers } from 'lucide-react';
+import videoServiceImg from '../assets/images/service_cinematic_video_1789133980920.jpg';
+import photoServiceImg from '../assets/images/service_editorial_photo_1789133996251.jpg';
+import mediaServiceImg from '../assets/images/service_digital_media_1789134008680.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -147,7 +150,7 @@ export const ServicesSection: React.FC = () => {
       title: 'VIDEO',
       subtitle: 'Cinematic Production & Post-Production',
       tagline: 'Precision frame craft from principal cinematography to final master.',
-      image: '/src/assets/images/service_cinematic_video_1789133980920.jpg',
+      image: videoServiceImg,
       icon: Film,
       disciplines: [
         'Commercial Direction',
@@ -164,7 +167,7 @@ export const ServicesSection: React.FC = () => {
       title: 'PHOTO',
       subtitle: 'Editorial & Luxury Commercial',
       tagline: 'High-contrast chiaroscuro, automotive stills, and architectural compositions.',
-      image: '/src/assets/images/service_editorial_photo_1789133996251.jpg',
+      image: photoServiceImg,
       icon: Camera,
       disciplines: [
         'Automotive Campaign Stills',
@@ -181,7 +184,7 @@ export const ServicesSection: React.FC = () => {
       title: 'MEDIA',
       subtitle: 'Social Direction & Media Buying',
       tagline: 'Closing the loop between creative assets and calculated digital performance.',
-      image: '/src/assets/images/service_digital_media_1789134008680.jpg',
+      image: mediaServiceImg,
       icon: BarChart3,
       disciplines: [
         'Omnichannel Distribution',
